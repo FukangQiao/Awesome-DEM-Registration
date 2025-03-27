@@ -17,28 +17,11 @@ COSSI-CORR
 **- Image Registration Review**
 Zitová, B., & Flusser, J. (2003). "Image registration methods: a survey."
 这篇综述系统性地总结了图像配准的基本框架（特征提取、特征匹配、变换模型、重采样）以及传统算法（基于灰度、特征、频域的方法）。
-
-Sotiras, A., Davatzikos, C., & Paragios, N. (2013). "Deformable medical image registration: A survey."
-专注于医学图像的非刚性配准，但对通用图像配准方法（如光流、B样条、基于机器学习的方法）有深入分析。
-
-Oliveira, F., & Ferreira, R. S. (2016). "Image registration in remote sensing: A survey."
-针对遥感图像配准的挑战（如多模态、大尺度变形）和方法总结，部分内容适用于DEM数据。
-
 Ma, J., et al. (2021). "Image matching from handcrafted to deep features: A survey."
 涵盖从SIFT、SURF到深度学习（如SuperPoint、LoFTR）的特征匹配方法演进，适合了解技术发展脉络。
 
 **- DEM-Registration**
-Li, J., & Zhang, L. (2015). "Automatic registration of multi-source DEMs based on feature and intensity information."
-提出结合地形特征（如山脊线、河谷）和强度信息（高程梯度）的DEM配准方法。
 
-Noh, M. J., & Howat, I. M. (2017). "Automated DEM registration and orthorectification for satellite imagery."
-针对卫星影像生成的DEM，提出基于ICESat激光高程控制点的自动配准框架。
-
-Ye, Y., & Bruzzone, L. (2019). "A local descriptor-based approach for multi-temporal DEM registration."
-设计了一种局部地形描述符（Terrain Context Descriptor, TCD），用于多时相DEM配准。
-
-Guth, P. L., & Lease, N. J. (2021). "Advances in DEM registration and fusion for geomorphic analysis."
-综述DEM配准的最新进展，重点讨论地形变化检测中的配准误差问题。
 
 ## DEM-Registration repository
 
